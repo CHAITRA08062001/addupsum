@@ -1,0 +1,20 @@
+</script>
+function addupsum(list,n,sum)
+{
+let count=0;
+    for (let i=0;i<n;i++)
+         for(let j=i+1;j<n;j++)
+             if (arr[i]+arr[j]==sum)
+                var a=i;
+                var b=j;
+                count++;
+                break;
+    return arr[a,b];
+  }
+  let n=prompt("enter number of element");
+  let arr=[prompt() for let i=o;i<n;i++]
+  
+  let sum=prompt()
+  documnt.write("array is",addsumup(arr,n,sum));
+  
+  </script>
